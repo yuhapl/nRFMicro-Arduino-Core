@@ -1,15 +1,18 @@
 {
-  "name": "framework-arduinoadafruitnrf52-seeed",
-  "version": "1.10101.0",
-  "description": "Arduino Wiring-based Framework for Nordic Semiconductor nRF52 BLE SoC",
+  "name": "nrfmicro-arduino",
+  "version": "1.0.0",
+  "description": "Arduino core for nRFMicro-compatible boards",
   "keywords": [
-    "framework",
     "arduino",
     "nordic semiconductor",
-    "nrf52"
+    "nrf52",
+    "nrfmicro",
+    "promicro",
+    "nice!nano",
+    "supermini"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino"
+    "url": "https://github.com/pdcook/nRFMicro-Arduino-Core"
   }
 }
