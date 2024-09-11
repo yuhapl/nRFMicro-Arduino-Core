@@ -1,4 +1,4 @@
-# Arduino Core for nRFMicro Boards
+# Arduino Core for nRFMicro-like Boards
 
 This repository contains the Arduino BSP for nRFMicro-compatible boards:
 
@@ -19,7 +19,7 @@ There are two methods that you can use to install this BSP. We highly recommend 
  4. Add <TODO> as an 'Additional Board Manager URL'
  5. Restart the Arduino IDE
  6. Open the Boards Manager from the Tools -> Board menu and install 'nRFMicro Boards'
- 7. Once the BSP is installed, select 'nRFMicro' from the Tools -> Board menu, which will update your system config to use the right compiler and settings for the nRF52.
+ 7. Once the BSP is installed, select 'nRFMicro' or 'SuperMini nRF52840' from the Tools -> Board menu, which will update your system config to use the right compiler and settings for the nRF52.
 
 ### Optional (Core Development): BSP via git
 
@@ -42,7 +42,7 @@ There are two methods that you can use to install this BSP. We highly recommend 
    ```
    
  6. Restart the Arduino IDE
- 7. Once the BSP is installed, select 'nRFMicro' from the Tools -> Board menu, which will update your system config to use the right compiler and settings for the nRF52.
+ 7. Once the BSP is installed, select 'nRFMicro' or 'SuperMini nRF52840' from the Tools -> Board menu, which will update your system config to use the right compiler and settings for the nRF52.
 
 ### Adafruit's nrfutil tools
 
