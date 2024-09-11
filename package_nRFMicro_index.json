@@ -1,0 +1,62 @@
+{
+  "packages": [
+    {
+      "name": "nRFMicro-like Boards",
+      "maintainer": "pdcook",
+      "websiteURL": "https://github.com/pdcook/nRFMicro-Arduino-Core",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "nRFMicro-like Boards",
+          "architecture": "nrf52",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/nRFMicro-Arduino-Core.tar.bz2",
+          "archiveFileName": "nRFMicro-Arduino-Core.tar.bz2",
+          "checksum": "SHA-256:7cb73379013de4f698aa0f0c2b28285c64bb8e99c4b6040e42ad52999ab563f6",
+          "size": "17218460",
+          "boards": [{ "name": "nRFMicro" }, { "name": "SuperMini nRF52840" }, {"name": "nice!nano v2"}],
+          "toolsDependencies": [
+                                      {
+
+                            "packager": "Seeeduino",
+
+                            "name": "arm-none-eabi-gcc",
+
+                            "version": "9-2019q4"
+
+                        },
+
+                        {
+
+                            "packager": "Seeeduino",
+
+                            "name": "nrfjprog",
+
+                            "version": "9.4.0"
+
+                        },
+
+                        {
+
+                            "packager": "Seeeduino",
+
+                            "name": "CMSIS",
+
+                            "version": "5.7.0"
+
+                        }
+
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
