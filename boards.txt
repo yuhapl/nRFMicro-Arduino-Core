@@ -8,14 +8,14 @@ menu.debug_output=Debug Port
 supermini.name=SuperMini nRF52840
 
 # VID/PID for bootloader
-supermini.vid.0=0x239A
-supermini.pid.0=0x00B3
-supermini.vid.1=0x239A
-supermini.pid.1=0x00B3
-supermini.vid.2=0x239A
-supermini.pid.2=0x00B3
-supermini.vid.3=0x239A
-supermini.pid.3=0x00B3
+supermini.vid.0=0x1209
+supermini.pid.0=0x5284
+supermini.vid.1=0x1209
+supermini.pid.1=0x5284
+supermini.vid.2=0x1209
+supermini.pid.2=0x5284
+supermini.vid.3=0x1209
+supermini.pid.3=0x5284
 
 # Upload
 supermini.bootloader.tool=bootburn
@@ -38,12 +38,12 @@ supermini.build.extra_flags=-DNRF52840_XXAA {build.flags.usb}
 supermini.build.ldscript=nrf52840_s140_v7.ld
 supermini.build.vid=0x1209
 supermini.build.pid=0x5285
-supermini.build.bootloader_version=0.9.2
+supermini.build.bootloader_version=1.0.0
 
 # SoftDevice Menu
-supermini.menu.softdevice.s140v6=S140 6.1.1
+supermini.menu.softdevice.s140v6=S140 7.3.0
 supermini.menu.softdevice.s140v6.build.sd_name=s140
-supermini.menu.softdevice.s140v6.build.sd_version=6.1.1
+supermini.menu.softdevice.s140v6.build.sd_version=7.3.0
 supermini.menu.softdevice.s140v6.build.sd_fwid=0x0123
 
 # Debug Menu
