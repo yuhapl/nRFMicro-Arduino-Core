@@ -19,8 +19,8 @@
           },
           "url": "https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/nRFMicro-Arduino-Core.tar.bz2",
           "archiveFileName": "nRFMicro-Arduino-Core.tar.bz2",
-          "checksum": "SHA-256:7d1b84c9a755d800ec621ebbc106eeb155c41dacc5b33e2d0e1006b92b99ddf3",
-          "size": "17198141",
+          "checksum": "SHA-256:bd71286a80e844b24a9d1a7b13b919c20cc813268e3917ff5cd2f30ff9f36d07",
+          "size": "17198594",
           "boards": [{ "name": "nRFMicro" }, { "name": "SuperMini nRF52840" }, {"name": "nice!nano v2"}],
           "toolsDependencies": [
                                       {
