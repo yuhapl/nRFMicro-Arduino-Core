@@ -7,6 +7,16 @@ This repository contains the Arduino BSP for nRFMicro-compatible boards:
 - [nice!Nano v2 (~$25)](https://nicekeyboards.com/nice-nano)
 - [And potentially the boards in the "ProMicro compatible" section here](https://github.com/joric/nrfmicro/wiki/Alternatives#pro-micro-compatible)
 
+## Pinouts
+
+### SuperMini nRF52840 / nice!Nano v2
+
+![SuperMini nRF52840 and nice!Nano v2 pinout](https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/supermini_nicenano.png)
+
+### nRFMicro
+
+![nRFMicro pinout](https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/nrfmicro.png)
+
 ## BSP Installation
 
 There are two methods that you can use to install this BSP. We highly recommend the first option unless you wish to participate in active development of this codebase via GitHub.
