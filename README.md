@@ -2,7 +2,7 @@
 
 This repository contains the Arduino BSP for nRFMicro-compatible boards:
 
-- [nRFMicro (DIY or ~$30 Puchi-BLE](https://github.com/joric/nrfmicro/wiki)
+- [nRFMicro (DIY or ~$30 Puchi-BLE)](https://github.com/joric/nrfmicro/wiki)
 - [**RECOMMENDED:** SuperMini nRF52840 (less than $3 on AliExpress)](https://wiki.icbbuy.com/doku.php?id=developmentboard:nrf52840)
 - [nice!Nano v2 (~$25)](https://nicekeyboards.com/nice-nano)
 - [And potentially the boards in the "ProMicro compatible" section here](https://github.com/joric/nrfmicro/wiki/Alternatives#pro-micro-compatible)
