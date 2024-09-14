@@ -1,6 +1,6 @@
 menu.softdevice=SoftDevice
-menu.debug=Debug Level
-menu.debug_output=Debug Port
+menu.debug=Debug
+menu.debug_output=Debug Output
 
 # ----------------------------------
 # SuperMini nRF52840
