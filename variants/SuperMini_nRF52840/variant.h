@@ -25,6 +25,12 @@ extern "C"
 #define NUM_ANALOG_INPUTS    (3)
 #define NUM_ANALOG_OUTPUTS   (0)
 
+// NOTE:
+//
+// BATTERY VOLTAGE IS READ VIA VDDH/5 BY CALLING
+//
+// analogReadVDDHDIV5() // returns uint32_t
+
 // 3V3 Regulator Disable
 #define PIN_EXT_VCC          (21) // EXT_VCC is P0.13 (set low to disable 3v3)
 #define EXT_VCC              (PIN_EXT_VCC)
