@@ -35,6 +35,7 @@ extern "C"
 #define LED_PWR              (PINS_COUNT) // no LED_PWR
 #define PIN_NEOPIXEL         (PINS_COUNT) // no neopixel
 #define NEOPIXEL_NUM         0
+#define LED_BLUE             PIN_LED // required by bluefruit library
 
 #define LED_BUILTIN          PIN_LED
 
