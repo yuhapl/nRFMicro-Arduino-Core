@@ -11,11 +11,11 @@ This repository contains the Arduino BSP for nRFMicro-compatible boards:
 
 ### SuperMini nRF52840 / nice!Nano v2
 
-![SuperMini nRF52840 and nice!Nano v2 pinout](https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/supermini_nicenano.png)
+![SuperMini nRF52840 and nice!Nano v2 pinout](https://raw.githubusercontent.com/yuhapl/nRFMicro-Arduino-Core/main/supermini_nicenano.png)
 
 ### nRFMicro
 
-![nRFMicro pinout](https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/nrfmicro.png)
+![nRFMicro pinout](https://raw.githubusercontent.com/yuhapl/nRFMicro-Arduino-Core/main/nrfmicro.png)
 
 ## BSP Installation
 
@@ -26,7 +26,13 @@ There are two methods that you can use to install this BSP. We highly recommend 
  1. [Download and install the Arduino IDE](https://www.arduino.cc/en/Main/Software) (At least v1.6.12)
  2. Start the Arduino IDE
  3. Go into Preferences
- 4. Add "https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/package_nRFMicro_index.json" as an 'Additional Board Manager URL'
+ 4. Add the following lines as 'Additional Board Manager URL'
+
+   ```
+    https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json
+    https://raw.githubusercontent.com/yuhapl/nRFMicro-Arduino-Core/main/package_nRFMicro_index.json
+   ```
+
  5. Restart the Arduino IDE
  6. Open the Boards Manager from the Tools -> Board menu and install 'nRFMicro Boards'
  7. Once the BSP is installed, select 'nRFMicro' or 'SuperMini nRF52840' from the Tools -> Board menu, which will update your system config to use the right compiler and settings for the nRF52.
@@ -46,7 +52,7 @@ There are two methods that you can use to install this BSP. We highly recommend 
  5. Clone this repo & its submodules:
 
    ```
-   git clone https://github.com/pdcook/nRFMicro-Arduino-Core
+   git clone https://github.com/yuhapl/nRFMicro-Arduino-Core
    cd nRFMicro-Arduino-Core
    git submodule update --init
    ```

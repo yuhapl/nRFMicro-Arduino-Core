@@ -1,23 +1,23 @@
 {
   "packages": [
     {
-      "name": "nRFMicro-like Boards",
-      "maintainer": "pdcook",
-      "websiteURL": "https://github.com/pdcook/nRFMicro-Arduino-Core",
+      "name": "nRFMicro-like-Boards",
+      "maintainer": "yuhapl",
+      "websiteURL": "https://github.com/yuhapl/nRFMicro-Arduino-Core",
       "email": "",
       "help": {
         "online": ""
       },
       "platforms": [
         {
-          "name": "nRFMicro-like Boards",
+          "name": "nRFMicro-like-Boards",
           "architecture": "nrf52",
           "version": "1.0.0",
           "category": "Contributed",
           "help": {
             "online": ""
           },
-          "url": "https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/nRFMicro-Arduino-Core.tar.bz2",
+          "url": "https://raw.githubusercontent.com/yuhapl/nRFMicro-Arduino-Core/main/nRFMicro-Arduino-Core.tar.bz2",
           "archiveFileName": "nRFMicro-Arduino-Core.tar.bz2",
           "checksum": "SHA-256:c190cd877a1889bdc99095ebca4cce243e57e80d30b2947b166f7aeab2327921",
           "size": "17227165",
@@ -56,14 +56,14 @@
           ]
         },
         {
-          "name": "nRFMicro-like Boards",
+          "name": "nRFMicro-like-Boards",
           "architecture": "nrf52",
           "version": "1.0.1",
           "category": "Contributed",
           "help": {
             "online": ""
           },
-          "url": "https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/nRFMicro-Arduino-Core-1.0.1.tar.bz2",
+          "url": "https://raw.githubusercontent.com/yuhapl/nRFMicro-Arduino-Core/main/nRFMicro-Arduino-Core-1.0.1.tar.bz2",
           "archiveFileName": "nRFMicro-Arduino-Core-1.0.1.tar.bz2",
           "checksum": "SHA-256:6864b2a506899affe5593dc2c5c65c39273bbef6cf60971a8a33577039e6f3b6",
           "size": "20051818",
@@ -102,14 +102,14 @@
           ]
         },
         {
-          "name": "nRFMicro-like Boards",
+          "name": "nRFMicro-like-Boards",
           "architecture": "nrf52",
           "version": "1.0.2",
           "category": "Contributed",
           "help": {
             "online": ""
           },
-          "url": "https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/nRFMicro-Arduino-Core-1.0.2.tar.bz2",
+          "url": "https://raw.githubusercontent.com/yuhapl/nRFMicro-Arduino-Core/main/nRFMicro-Arduino-Core-1.0.2.tar.bz2",
           "archiveFileName": "nRFMicro-Arduino-Core-1.0.2.tar.bz2",
           "checksum": "SHA-256:44d35927a60cb8a571a210ddeb9d2c5da4957ead5b143623685a8787fa1d04c9",
           "size": "20050973",
